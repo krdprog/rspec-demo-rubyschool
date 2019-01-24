@@ -2,20 +2,20 @@ class Car
 
 	Miles_Per_Gallon = 20
 
- attr_reader :fuel
+	attr_reader :fuel
 
- def initialize
- 	@fuel = 0
- end
+	def initialize
+		@fuel = 0
+	end
 
- def add_fuel amount
- 	@fuel += amount
- end
+	def add_fuel amount
+		@fuel += amount
+	end
 
- # Как далеко мы сможем проехать:
- def range
- 	@fuel * Miles_Per_Gallon
- end
+	# Как далеко мы сможем проехать:
+	def range
+		@fuel * Miles_Per_Gallon
+	end
 
 end
 
